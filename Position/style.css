@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+    position: relative;
+    margin-left: 100px;
+}
+.box3{
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: 100px;
+}
+.box4{
+    background-color: brown;
+    /* position: fixed;
+    top: 0px;
+    left: 200px; */
+}
+.box5{
+    background-color: chartreuse;
+}

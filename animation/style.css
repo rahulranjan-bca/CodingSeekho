@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background-color: crimson;
+    position: absolute;
+    animation-name: moving;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes moving{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        top: 0px;
+        left: 600px;
+    }
+    40%{
+        top: 300px;
+        left: 900px;
+    }
+    60%{
+        top: 600px;
+        left: 600px;
+    }
+    80%{
+        top: 300px;
+        left: 0px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}

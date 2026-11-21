@@ -1,0 +1,29 @@
+.parent{
+    height: 250px;
+    width: 250px;
+    border: 2px solid cadetblue;
+    background-color:rgb(104, 154, 155); 
+    border-radius: 10%;
+    margin:60px auto;
+}
+.parent:hover{
+    background-color:cadetblue;
+}
+
+.image{
+    height: 110px;
+    width: 110px;
+    border: 2px solid rgb(5, 147, 147);
+    margin: 10px auto;
+    border-radius: 50%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.para{
+    color: white;
+    /* margin-left: 25px; */
+    text-align: center;
+}
