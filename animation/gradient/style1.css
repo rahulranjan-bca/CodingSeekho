@@ -1,0 +1,35 @@
+/* body{
+    display: flex;
+} */
+.box{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(red,green,blue,white,maroon,pink,aqua);
+    animation-name: bg-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    margin: 300px 300px;
+    float: left;
+    
+}
+.box1{
+     height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: radial-gradient(rgb(132, 53, 53),rgb(58, 134, 58),rgb(3, 3, 54),rgb(201, 195, 195),rgb(244, 39, 39),rgb(237, 7, 46),rgb(12, 176, 176));
+    animation-name: bg-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin: 300px 800px;
+    transform: rotate(90deg);
+}
+@keyframes bg-color {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+    }
+}

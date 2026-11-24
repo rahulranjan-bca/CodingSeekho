@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.para-box{
+    height: 200px;
+    width: 200px;
+    /* background-color: aqua;
+    border-width: 2px;
+    border-style:solid; */
+    
+    border: 2px solid red;
+    border-radius: 10%;
+
+    /* font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;*/
+
+    font: 16px,arial;
+
+}
+
+.para-box:hover{
+    background-color: antiquewhite;
+}
+    
+

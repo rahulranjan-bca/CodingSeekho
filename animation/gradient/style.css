@@ -1,0 +1,37 @@
+.box{
+    margin-left: 400px;
+    /* background-color: magenta; */
+    border: 2px solid;
+    border-color: blueviolet;
+    animation-name: boxanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: absolute; 
+    animation-timing-function: linear;
+
+}
+.box1{
+    height: 400px;
+    width: 400px;
+    margin-top: 15px;
+    /* border-radius: 50%; */
+    background: radial-gradient(red,blue,green,pink,maroon);
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    margin-top: 110px;
+    margin-left: 500px;
+    
+    background: radial-gradient(yellow,red,pink,maroon,blue);
+    
+}
+ @keyframes boxanimation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        
+    }
+} 
