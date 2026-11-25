@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "StackDemo",
+            "request": "launch",
+            "mainClass": "Collection.StackDemo",
+            "projectName": "Java_f46411b5"
+        },
+        {
+            "type": "java",
+            "name": "VectorDemo",
+            "request": "launch",
+            "mainClass": "Collection.VectorDemo",
+            "projectName": "Java_f46411b5"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListDemo",
+            "request": "launch",
+            "mainClass": "Collection.LinkedListDemo",
+            "projectName": "Java_f46411b5"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
